@@ -7,8 +7,8 @@ const ContactMe = () => {
     <section id="contact" className="px-4 py-4 max-w-4xl mx-auto text-center">
       <h2 className="text-3xl font-bold text-emerald-500 mb-6">Contact Me</h2>
       <p className="text-gray-700 dark:text-gray-300 text-lg mb-8">
-        I'm always open to collaboration or opportunities. Reach out through any
-        of the following:
+        I&apos;m always open to collaboration or opportunities. Reach out
+        through any of the following:
       </p>
 
       <div className="flex flex-col gap-4 items-center">
