@@ -1,10 +1,7 @@
-// "use client";
-
 import Hero from "@/components/Hero";
 import Skill from "@/components/Skill";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
-// import Footer from "@/components/Footer";
 import NavBar from "@/components/NavBar";
 
 export default function Portfolio() {
@@ -15,7 +12,6 @@ export default function Portfolio() {
       <Skill />
       <Projects />
       <Contact />
-      {/* <Footer /> */}
     </main>
   );
 }

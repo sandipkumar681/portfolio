@@ -21,8 +21,8 @@ const NavBar = () => {
 
   const navigationLinks = [
     { key: 1, link: "#about", name: "About" },
-    { key: 2, link: "#skill", name: "Skill" },
-    { key: 3, link: "#project", name: "Project" },
+    { key: 2, link: "#skills", name: "Skills" },
+    { key: 3, link: "#projects", name: "Projects" },
     { key: 4, link: "#contact", name: "Contact me" },
   ];
 
@@ -33,13 +33,13 @@ const NavBar = () => {
         aria-label="Main navigation"
       >
         <Link href="/" className="flex flex-row items-center">
-          <div className="rounded-full w-10 h-10 overflow-hidden">
+          <div className="rounded-full w-10 h-10 overflow-hidden mr-4">
             <Image
               src="/logo.jpg"
               alt="My profile image"
               height={500}
               width={300}
-              className="mr-4 rounded-full object-cover"
+              className="rounded-full object-cover"
             />
           </div>
 

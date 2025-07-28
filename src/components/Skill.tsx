@@ -164,10 +164,10 @@ export default function Skills() {
   ];
   return (
     <section
-      id="skill"
-      className="px-4 max-w-6xl mx-auto flex flex-col items-center justify-center"
+      id="skills"
+      className="px-4 max-w-6xl mx-auto flex flex-col items-center justify-center min-h-screen"
     >
-      <h2 className="text-3xl mt-22 font-bold text-emerald-500 mb-6 text-center">
+      <h2 className="text-4xl mt-22 font-bold text-emerald-500 mb-6 text-center">
         Skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-800 dark:text-gray-200 w-full">
@@ -181,7 +181,6 @@ export default function Skills() {
   );
 }
 
-// 🧩 Reusable SkillCard Component
 function SkillCard({
   title,
   skills,
@@ -191,12 +190,12 @@ function SkillCard({
 }) {
   return (
     <div className="bg-white dark:bg-zinc-900 rounded-lg shadow-md p-6 hover:shadow-xl transition duration-300 border border-gray-100 dark:border-zinc-700">
-      <h3 className="text-xl font-semibold mb-4">{title}</h3>
+      <h3 className="text-2xl font-semibold mb-4">{title}</h3>
       <ul className="grid grid-cols-2 gap-3">
         {skills.map((skill, index) => (
           <li
             key={index}
-            className="flex items-center gap-2 text-md hover:text-emerald-500 transition"
+            className="flex items-center gap-2 text-xl hover:text-emerald-500 transition"
           >
             <span className="text-xl">{skill.icon}</span>
             <span>{skill.name}</span>
@@ -205,66 +204,4 @@ function SkillCard({
       </ul>
     </div>
   );
-}
-
-{
-  /* <section className="mt-20 px-4 max-w-5xl mx-auto">
-  <h2 className="text-3xl font-bold text-emerald-500 mb-6 text-center">Skills</h2>
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-lg text-gray-800 dark:text-gray-300">
-    <div>
-      <h3 className="font-semibold text-xl mb-2">💻 Languages</h3>
-      <ul className="list-disc ml-6">
-        <li>JavaScript (ES6+)</li>
-        <li>TypeScript</li>
-      </ul>
-    </div>
-    <div>
-      <h3 className="font-semibold text-xl mb-2">🌐 Frontend</h3>
-      <ul className="list-disc ml-6">
-        <li>HTML5, CSS3, Responsive Design</li>
-        <li>React.js, Redux</li>
-        <li>Next.js (SSR, API Routes, Routing)</li>
-        <li>Tailwind CSS, Bootstrap</li>
-        <li>React Native (Mobile Development)</li>
-      </ul>
-    </div>
-    <div>
-      <h3 className="font-semibold text-xl mb-2">🛠 Backend</h3>
-      <ul className="list-disc ml-6">
-        <li>Node.js, Express.js</li>
-        <li>REST APIs, Cookie Handling, Authentication</li>
-        <li>Server-Side Rendering (Next.js)</li>
-      </ul>
-    </div>
-    <div>
-      <h3 className="font-semibold text-xl mb-2">🗄 Database</h3>
-      <ul className="list-disc ml-6">
-        <li>MongoDB, Mongoose</li>
-        <li>NoSQL Data Modeling, CRUD Operations</li>
-        <li>Query Optimization</li>
-      </ul>
-    </div>
-    <div>
-      <h3 className="font-semibold text-xl mb-2">🧪 Tools & Debugging</h3>
-      <ul className="list-disc ml-6">
-        <li>VS Code, Postman, Chrome DevTools</li>
-        <li>Performance Optimization & Debugging</li>
-      </ul>
-    </div>
-    <div>
-      <h3 className="font-semibold text-xl mb-2">🔧 Version Control</h3>
-      <ul className="list-disc ml-6">
-        <li>Git, GitHub, Git Workflows</li>
-        <li>Team Collaboration</li>
-      </ul>
-    </div>
-    <div>
-      <h3 className="font-semibold text-xl mb-2">🖥 OS & CLI</h3>
-      <ul className="list-disc ml-6">
-        <li>Linux, UNIX-based systems</li>
-        <li>Command Line Tools & Scripting</li>
-      </ul>
-    </div>
-  </div>
-</section> */
 }

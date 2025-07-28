@@ -75,7 +75,7 @@ const Hero = () => {
           <div className="mt-6 grid grid-cols-2 gap-4 w-full max-w-xs">
             {/* Resume */}
             <a
-              href="/resume.pdf"
+              href="/sandip-resume.pdf"
               download
               className="bg-emerald-600 text-white px-5 py-3 rounded-lg shadow-md hover:bg-emerald-500 transition text-center md:text-xl"
             >
@@ -105,7 +105,7 @@ const Hero = () => {
         </div>
         {/* Overview Section */}
         <div className="w-full md:w-1/2">
-          <h4 className="text-3xl font-bold text-emerald-500 text-center mb-4">
+          <h4 className="text-4xl font-bold text-emerald-500 text-center mb-4">
             Overview
           </h4>
 
