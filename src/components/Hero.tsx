@@ -54,10 +54,10 @@ const Hero = () => {
         <span className="inline-block animate-waving-hand ml-2">👋</span>
       </h1>
 
-      <h3 className="text-2xl font-semibold mt-2 mb-6 text-gray-800 dark:text-gray-200 text-center">
+      <h2 className="text-2xl font-semibold mt-2 mb-6 text-gray-800 dark:text-gray-200 text-center">
         I&apos;m a <span className="text-emerald-500">{displayText}</span>
         <span className="animate-pulse">|</span>
-      </h3>
+      </h2>
 
       <div className="flex flex-col md:flex-row items-start md:items-center mt-10 gap-10">
         {/* Profile Image & Socials */}
@@ -105,9 +105,9 @@ const Hero = () => {
         </div>
         {/* Overview Section */}
         <div className="w-full md:w-1/2">
-          <h4 className="text-4xl font-bold text-emerald-500 text-center mb-4">
+          <h3 className="text-4xl font-bold text-emerald-500 text-center mb-4">
             Overview
-          </h4>
+          </h3>
 
           <ul className="text-gray-700 dark:text-gray-300 text-[17px] space-y-6 list-none">
             <li className="flex">
