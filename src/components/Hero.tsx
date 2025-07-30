@@ -64,7 +64,7 @@ const Hero = () => {
         <div className="flex flex-col items-center w-full md:w-1/2">
           <div className="relative w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden shadow-[0_0_25px_5px_rgba(16,185,129,0.5)]">
             <Image
-              src="/profile-image.jpg"
+              src="/profile-image.webp"
               alt="Sandip's profile"
               width={240}
               height={240}
