@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
@@ -5,7 +6,7 @@ const projects = [
   {
     title: "Edutrack",
     stack: "React Native + Node.js + MongoDB",
-    image: "/edutrack-preview.png",
+    image: "/edutrack-preview.webp",
     description:
       "Edutrack helps students track their exam preparation. Store data offline with MMKV or sync online by signing in with Google. There is a custom backend keep things simple and secure.",
     github: "https://github.com/sandipkumar681/Edu-Track",
@@ -14,7 +15,7 @@ const projects = [
   {
     title: "Streamio",
     stack: "MERN Stack",
-    image: "/streamio-preview.png",
+    image: "/streamio-preview.webp",
     description:
       "A YouTube-like platform for uploading, streaming, liking, and commenting on videos. Includes playlists and dashboards.",
     github: "https://github.com/sandipkumar681/Streamio",
@@ -23,7 +24,7 @@ const projects = [
   {
     title: "Nimbus Notes",
     stack: "MERN Stack",
-    image: "/nimbus-preview.png",
+    image: "/nimbus-preview.webp",
     description:
       "Secure, cloud-based note-taking app with full CRUD, JWT auth, and user-specific access.",
     github: "https://github.com/sandipkumar681/Nimbus-Notes",
@@ -43,7 +44,9 @@ const Projects = () => {
             key={index}
             className="border border-gray-300 dark:border-gray-700 rounded-2xl shadow-md overflow-hidden bg-white dark:bg-gray-900 hover:shadow-xl transition duration-300"
           >
-            <img
+            <Image
+              height={200}
+              width={200}
               src={project.image}
               alt={`${project.title} preview`}
               className="w-full h-60 object-cover"

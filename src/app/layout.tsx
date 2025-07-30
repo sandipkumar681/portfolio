@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Sandip's Portfolio",
   description:
     "Portfolio of Sandip Kumar Behera — a full-stack developer specializing in MERN stack, React Native, and Next.js. Explore projects, skills, and experience in building scalable, performant applications across web and mobile platforms.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
