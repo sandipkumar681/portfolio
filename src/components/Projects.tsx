@@ -45,8 +45,8 @@ const Projects = () => {
             className="border border-gray-300 dark:border-gray-700 rounded-2xl shadow-md overflow-hidden bg-white dark:bg-gray-900 hover:shadow-xl transition duration-300"
           >
             <Image
-              // height={200}
-              // width={200}
+              height={200}
+              width={200}
               src={project.image}
               alt={`${project.title} preview`}
               className="w-full h-60 object-cover"
