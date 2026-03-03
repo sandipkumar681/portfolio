@@ -35,7 +35,7 @@ const NavBar = () => {
         <Link href="/" className="flex flex-row items-center">
           <div className="rounded-full w-10 h-10 overflow-hidden mr-4">
             <Image
-              src="/logo.jpg"
+              src="/logo.png"
               alt="My profile image"
               height={500}
               width={300}
