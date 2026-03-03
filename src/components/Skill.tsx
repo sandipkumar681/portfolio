@@ -44,14 +44,6 @@ export default function Skills() {
           name: "TypeScript",
           icon: <SiTypescript className="text-blue-500" />,
         },
-        {
-          name: "Java",
-          icon: <DiJava className="text-orange-600" />,
-        },
-        {
-          name: "C",
-          icon: <SiC className="text-blue-700" />,
-        },
       ],
     },
     {
